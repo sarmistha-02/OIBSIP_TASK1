@@ -1,0 +1,55 @@
+html{
+    background: url('bg.jpg') no-repeat no-repeat fixed;
+    background-size: cover;
+}
+.container{
+    display: flex;
+    background-color: #bea9df;
+    flex-direction: column;
+    width:25%;
+    margin:auto;
+    margin-top: 200px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    box-shadow:  0 0 50px 1px #444444;
+    height: max-content;
+    padding:40px 2px;
+}
+#user-input input{
+    border-radius: 10px;
+    width:300px;
+    height:50px;
+    margin-bottom:15px;
+    border: 1px solid rgb(240, 203, 245);
+    font-weight: bold;
+    font-family: 'Chivo Mono', monospace;
+    font-size:25px;
+    text-align: right;
+}
+.num button , #equals button{
+    width:65px;
+    height:35px;
+    border:none;
+    border-radius: 300px;
+    margin:6px;
+    font-family: 'Chivo Mono', monospace;
+    font-size:20px;
+    box-shadow: 5px 5px 3px #878383;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    line-height: 10px;
+}
+#equals button{
+    background-color:#ccccec;
+    width:300px;
+}
+#division , #mul , #add , #sub , #mod{
+    background-color:#bfbfe7;
+}
+.num button:hover , #equals button:hover , #division:hover , #mul:hover , #add:hover , #sub:hover , #mod:hover{
+    background-color: black;
+    color:azure;
+    transition: 0.5s ease-out;
+}
